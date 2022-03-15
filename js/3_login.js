@@ -5,7 +5,7 @@ loginSubmit.addEventListener('click', function () {
     const userEmail = emailField.value;
 
     // get user password
-    const passwordField=document.getElementById('user-password')
+    const passwordField = document.getElementById('user-password');
     const userPassword = passwordField.value;
 
     // check email and password
@@ -13,3 +13,4 @@ loginSubmit.addEventListener('click', function () {
         window.location.href = '3_banking.html';
     }
 });
+
